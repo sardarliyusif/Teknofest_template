@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85px;
+}
+header nav .logo {
+  height: 100%;
+}
+header nav .logo img {
+  height: 100%;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 0 2rem;
+}
+header nav ul li a {
+  color: blue;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+header nav .wallet {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 1.5rem;
+}
+header nav .wallet p {
+  margin-right: 0.25rem;
+  margin-left: 1rem;
+}
+
+main {
+  display: flex;
+  padding: 1rem;
+  background-color: rgb(47, 47, 85);
+  min-height: 80vh;
+}
+main aside {
+  width: 300px;
+  height: 80vh;
+}
+main aside ul li {
+  padding: 1rem;
+  border: 3px solid #fff;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+main aside ul li a {
+  color: white;
+  font-weight: 700;
+}
+main section {
+  flex: 1;
+  padding: 1rem;
+}
+main section .question {
+  padding: 1rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+main section .question .question-number {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+main section .question .question-content {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+main section .question .answers {
+  display: flex;
+  flex-wrap: wrap;
+}
+main section .question .answers .answer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+main section .question .answers .answer p {
+  color: #fff;
+}
+main section .question .answers .answer .imgs img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}/*# sourceMappingURL=main.css.map */
